@@ -462,6 +462,23 @@ main.personality{
     margin: 0.1rem 1.25rem 0 0;
 }
 
+.references{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--blush);
+}
+
+.references p{
+    font-size: 0.9rem;
+    padding-left: 2em;        /* indent every line... */
+    text-indent: -2em;        /* ...then pull the first line back out */
+    overflow-wrap: anywhere;  
+}
+
+.references a{
+    color: var(--accent);
+}
+
 
 /*   PERSONAL DEVELOPMENT CSS      */
 
